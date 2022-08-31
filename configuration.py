@@ -1,4 +1,7 @@
 SERVICE_URL = 'https://symphony-solutions.com/'
+
+WRONG_URL_AFTER_SLASH = ['test', 'test/', 'contact-us/test', ]
+
 WRONG_URL_HTTPS = ['http://symphony-solutions.com',
                    'http://symphony-solutions.com',
                    'http://www.symphony-solutions.com', ]
