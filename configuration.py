@@ -1,4 +1,5 @@
 SERVICE_URL = 'https://symphony-solutions.com/'
+CONTACT_FORM_URL = 'https://symphony-solutions.com/contact-us'
 
 WRONG_URL_AFTER_SLASH = ['test', 'test/', 'contact-us/test', ]
 
