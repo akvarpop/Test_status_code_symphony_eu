@@ -22,11 +22,13 @@ def test_entering_incorrect_data_in_the_url_after_the_slash(url):
     response = requests.get(SERVICE_URL+url)
     assert response.status_code == 404, GlobalErrorMassages.WRONG_STATUS_CODE.value
 
+
 @pytest.mark.skip
 def test_get_xml_file():
     response = requests.get(url=XML_URL)
     assert response.status_code == 200
     xml = response.text
+
 
 @pytest.mark.skip
 def test_get_xml():
